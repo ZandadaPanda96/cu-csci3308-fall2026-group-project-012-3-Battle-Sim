@@ -16,11 +16,17 @@ Pick a befitting name to convey the purpose of your application. To be used in a
 presentations(weekly to your TA and the final one)
 
 5. Application Description
-A short (2-3 paragraphs) overview description of the application. Provide enough information to explain what functionality and value your product will provide to users of your application. This should help you to define the scope of your project.
+A short (2-3 paragraphs) overview description of the application. Provide enough information to explain what functionality and value your product will provide to users of your application. This should help you to define the scope of your project:
+
+Unnamed battle sim is a online turn bassed mutiplayer creature battler where players fight against eachohter with avtars of themselves or others. While there are many simiular games currently on the market, what sets (name here) apart is its customisabilty, and instead of creatues diong the batteling, it is a dirrect represtation of the player(or even somone else). By default there is at least one(probably two for testing) premade fighters for example purposes. The charecter creation process is done by uploading an image of yourself and then selecting your move set(more info is needed on how this is to work, such as balencing, how many moves, and other mechanics, one form of balance may be to have some things tied to a random number genrator, such as health, what types of moves you could choose for this charecter etc. Speaking of moves we could combine the previous idea with a class/type system, for example if someone desinges thier avatar to be a fire class charecter they will have acess to choose moves that class can learn, including some exclusive moves, but to avoid the issue of players just choosing the strogenst moves we could paritlay randmise what moves they could choose from. Another way we could solve the move balancing isue is by having a leveling sytem that unlocks more moves).
+
+
 
 6. Audience
 Define the target audience for your application by identifying the characteristics of an ideal user. Clearly articulate the specific problem your software aims to solve for this user group. Additionally, consider the usability and accessibility of the application, ensuring that interactions are intuitive and convenient for the intended audience.
 Understanding their background helps shape features and design.
+
+Our target auidence is those looking for a fun game to play together(how complex should we make this game? ) that is cosuomiszble. We also have an addtiaonly target auddiecne of anyone who woudl like to know who would win in a fight, but with a more humourful aproch
 
 7. Vision Statement
 A simple, one or two sentence statement describing the clear and inspirational desired state resulting from your team’s efforts to create your application. Following is a template you might want to use:
