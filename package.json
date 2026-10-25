@@ -1,0 +1,16 @@
+{
+  "name": "cu-csci3308-fall2026-group-project-012-3-battle-sim",
+  "version": "1.0.0",
+  "description": "Battle Simulator - CSCI 3308 Group Project",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-Aidan-dev50:ZandadaPanda96/cu-csci3308-fall2026-group-project-012-3-Battle-Sim.git"
+  },
+  "license": "ISC",
+  "author": "CSCCI 3308 Group 012-3",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
