@@ -1,6 +1,6 @@
 # Use Case Diagram - Team 012-3
 
-![Use Case Diagram](use.case.diagram.png)
+![Use Case Diagram](use_case_diagram.png)
 
 ## Actors
 - **Player** - A registered user who creates characters and battles.
