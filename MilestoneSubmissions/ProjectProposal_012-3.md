@@ -39,7 +39,7 @@ Unnamed battle sim is an online turn-based multiplayer creature battler where pl
 Define the target audience for your application by identifying the characteristics of an ideal user. Clearly articulate the specific problem your software aims to solve for this user group. Additionally, consider the usability and accessibility of the application, ensuring that interactions are intuitive and convenient for the intended audience.
 Understanding their background helps shape features and design.
 
-Our target audience is those looking for a fun game to play together(how complex should we make this game? ) that is customizable. We also have an additional target audience of anyone who would like to know who would win in a fight, but with a more humorous approach
+Our target audience is those looking for a fun game to play together while aslo lokoing for a customizable experince. 
 
 # 7. Vision Statement
 A simple, one or two sentence statement describing the clear and inspirational desired state resulting from your team’s efforts to create your application. Following is a template you might want to use:
@@ -52,6 +52,8 @@ CU Boulder: “To be a leader in addressing the humanitarian, social, and techno
 IKEA: “To create a better everyday life for many people.”
 Nordstrom: “Offer the customer the best possible service, selection,quality, and value.”
 Google: “To provide access to the world’s information in one click.”
+
+We still need a vision statment
 
 # 8. Version Control info
 You are required to create a public GitHub repository and add all the members of the team to it. Share the link to this repository in this document.
@@ -79,10 +81,16 @@ Team Meeting: Identify the day(s) and time(s), mode, and location your team has 
 Weekly meeting with TA: You will also mention the meeting day, time and location (in-person or online) for the weekly meeting with your TA here.
 Please refer to these instructions for expectations in your weekly meeting with your TAs. Do read the entire section carefully.
 
+Still needs to be filled out
+
 # 12. Use Case Diagram
 Create a high-level Use Case Diagram for your application. Your diagram must show at least 6 key features of your application.
 This activity should help you identify the end users of the application and the ways they would interact with the system. You can reference the examples covered in class. This will also help you scope out the features of your application. You can refer to this page for more information on how to create a Use Case Diagram.
 
+import case digram here
+
 # 13. Wireframes
 You will create wireframes for each page of the application.
 Wireframes are low-fidelity visual representations of the user interface of your application. They are used to plan the layout of the application and to communicate the flow of the application to the team. You can use any tool of your choice to create the wireframes. Hand sketched wireframes are also acceptable. You can refer to this for more information on why and how
+
+import wireframes here
