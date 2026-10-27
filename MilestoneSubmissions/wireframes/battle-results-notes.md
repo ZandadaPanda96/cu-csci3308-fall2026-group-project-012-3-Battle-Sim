@@ -10,9 +10,3 @@ These are interface designs only. They do not implement damage, turn execution, 
 ## Review notes
 
 Roster, move count, health values, and opponent behavior are unconfirmed examples. Waiting/disabled controls, leave confirmation, complete defeat state, mobile layout, and user/team walkthrough need review. These drafts do not by themselves complete every criterion in #17.
-
-## AI assistance
-
-These are AI-generated raster sketches, not physical drawings or editable vector sources. Andre selected the rough-pen login style and requested: “ok thats better make the rest in that style”.
-
-Generation direction: match the accepted login's simple black-ballpoint class doodle, uneven handwriting and outlines on white paper. Battle shows fighter placeholders, rough HP bars, turn label, move buttons, and last action. Results shows win/lose alternatives and a return-to-selection action, with no rewards or progression assumed. The AI supplied the layouts, lettering, and marks. Team/user validation remains pending.
