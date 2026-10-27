@@ -35,7 +35,7 @@ Unnamed battle sim is an online turn-based multiplayer creature battler where pl
 Define the target audience for your application by identifying the characteristics of an ideal user. Clearly articulate the specific problem your software aims to solve for this user group. Additionally, consider the usability and accessibility of the application, ensuring that interactions are intuitive and convenient for the intended audience.
 Understanding their background helps shape features and design.
 
-Our target audience is those looking for a fun game to play together while aslo lokoing for a customizable experince. 
+Our target audience is those looking for a fun game to play together while also looking for a customizable experience. 
 
 # 7. Vision Statement
 A simple, one or two sentence statement describing the clear and inspirational desired state resulting from your team’s efforts to create your application. Following is a template you might want to use:
@@ -92,7 +92,7 @@ Still needs to be filled out but we have it planned
 Create a high-level Use Case Diagram for your application. Your diagram must show at least 6 key features of your application.
 This activity should help you identify the end users of the application and the ways they would interact with the system. You can reference the examples covered in class. This will also help you scope out the features of your application. You can refer to this page for more information on how to create a Use Case Diagram.
 
-import case digram here
+![Use Case Diagram](use_case_diagram.png) See use_case_diagram.md for more details.
 
 # 13. Wireframes
 You will create wireframes for each page of the application.
@@ -101,5 +101,12 @@ Wireframes are low-fidelity visual representations of the user interface of your
 import wireframes here
 
 # Extra Credit
-
 Identify at least five potential risks related to your project. For each risk, describe its severity and outline suitable mitigation strategies to address it. Make sure to add a note in your proposal that this is the submission for extra credit.
+
+| # | Risk | Severity | Mitigation | 
+|---|------|----------|------------|
+| 1 | A team member doesn't finish their part | High | Track tasks on GitHub, check in with the team, and reassign work if someone is stuck. |
+| 2 | Merge conflicts when multiple people edit the same file | Medium | Everyone works on their own branch, keeps pull requests small, and pulls from main every time they start working. |
+| 3 | Battles are unbalanced or battle logic has bugs | Medium | Keep the battle logic in its own file, test it separately, and adjust move values accordingly. |
+| 4 | Changes to the database tables break other teammates' code | Medium | Keep the table setup in one shared SQL file and tell the team before changing it. | 
+| 5 | The app runs differently on each teammate's computer | Medium | Everyone runs the app through one shared Docker Compose setup. |
