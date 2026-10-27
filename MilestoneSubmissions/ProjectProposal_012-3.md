@@ -25,7 +25,7 @@ Battle Sim
 # 5. Application Description
 A short (2-3 paragraphs) overview description of the application. Provide enough information to explain what functionality and value your product will provide to users of your application. This should help you to define the scope of your project:
 
-Unnamed battle sim is an online turn-based multiplayer creature battler where players fight against each other with avatars of themselves or others. While there are many similar games currently on the market, what sets (name here) apart is its customisability, and instead of creatures doing the battling, it is a direct representation of the player(or even someone else). By default, there is at least one(probably two for testing) premade fighter for example purposes. The character creation process is done by uploading an image of yourself and then selecting your move set(more info is needed on how this is to work, such as balancing, how many moves, and other mechanics, one form of balance may be to have some things tied to a random number generator, such as health, what types of moves you could choose for this character, etc. Speaking of moves, we could combine the previous idea with a class/type system, for example, if someone designs their avatar to be a fire class character, they will have acess to choose moves that class can learn, including some exclusive moves, but to avoid the issue of players just choosing the strongest moves, we could partially randomize what moves they could choose from. Another way we could solve the move balancing issue is by having a leveling system that unlocks more moves.) This section needs rewiritng now that we have more info
+Battle Sim is an online turn-based multiplayer creature battler where players fight against each other with avatars of themselves or others. While there are many similar games currently on the market, what sets (name here) apart is its customisability, and instead of creatures doing the battling, it is a direct representation of the player(or even someone else). By default, there is at least one(probably two for testing) premade fighter for example purposes. The character creation process is done by uploading an image of yourself and then selecting your move set(more info is needed on how this is to work, such as balancing, how many moves, and other mechanics, one form of balance may be to have some things tied to a random number generator, such as health, what types of moves you could choose for this character, etc. Speaking of moves, we could combine the previous idea with a class/type system, for example, if someone designs their avatar to be a fire class character, they will have acess to choose moves that class can learn, including some exclusive moves, but to avoid the issue of players just choosing the strongest moves, we could partially randomize what moves they could choose from. Another way we could solve the move balancing issue is by having a leveling system that unlocks more moves.) This section needs rewiritng now that we have more info
 
 
 
@@ -82,10 +82,27 @@ Please refer to these instructions for expectations in your weekly meeting with 
 Still needs to be filled out but we have it planned
 
 # 12. Use Case Diagram
-Create a high-level Use Case Diagram for your application. Your diagram must show at least 6 key features of your application.
-This activity should help you identify the end users of the application and the ways they would interact with the system. You can reference the examples covered in class. This will also help you scope out the features of your application. You can refer to this page for more information on how to create a Use Case Diagram.
 
-import case digram here
+<!----This section is a slightly moddifed from of  Jamie Grove's use_case_diagram.md, thank you again Jamie! ----->
+![Use Case Diagram](use_case_diagram.png)
+
+## Actors
+- **Player** - A registered user who creates characters and battles.
+- **Opponent** - Another player on the other side of the battle.
+
+## Use Cases
+| # | Use Case | Description|
+|---|----------|------------|
+| 1 | Register | A new user creates an account |
+| 2 | Log in | A returning user signs in to access their characters |
+| 3 | Create Character | The player uploads an image of themselves or someone else to use as their fighter. |
+| 4 | Use a premade fighter | The player can pick one of the games fighters instead of making their own. |
+| 5 | Select a character for battle | The player chooses which fighter to bring to battle. |
+| 6 | Battle another player | Two players battle each other in a turn-based battle. |
+| 7 | Choose move each turn | On each turn, the player picks one of their fighters moves to use. |
+
+## Note
+Features are subject to change.
 
 # 13. Wireframes
 You will create wireframes for each page of the application.
@@ -93,6 +110,15 @@ Wireframes are low-fidelity visual representations of the user interface of your
 
 import wireframes here
 
-# Extra Credit
 
-Identify at least five potential risks related to your project. For each risk, describe its severity and outline suitable mitigation strategies to address it. Make sure to add a note in your proposal that this is the submission for extra credit.
+<!----This section is a slightly moddifed from of  Jamie Grove's MilestoneSubmissions/risk_analysis.md, thank you once again Jamie! ----->
+
+# Risk Analysis (Extra Credit)
+
+| # | Risk | Severity | Mitigation | 
+|---|------|----------|------------|
+| 1 | A team member doesn't finish their part | High | Track tasks on GitHub, check in with the team, and reassign work if someone is stuck. |
+| 2 | Merge conflicts when multiple people edit the same file | Medium | Everyone works on their own branch, keeps pull requests small, and pulls from main every time they start working. |
+| 3 | Battles are unbalanced or battle logic has bugs | Medium | Keep the battle logic in its own file, test it separately, and adjust move values accordingly. |
+| 4 | Changes to the database tables break other teammates' code | Medium | Keep the table setup in one shared SQL file and tell the team before changing it. | 
+| 5 | The app runs differently on each teammate's computer | Medium | Everyone runs the app through one shared Docker Compose setup. |
