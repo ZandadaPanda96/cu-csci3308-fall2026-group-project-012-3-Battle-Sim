@@ -7,7 +7,7 @@ Before starting this discussion, assign a scribe who will start a document and t
 Team Avatar
 
 # 3. Team Members
-List the First & Last name of team members, their GitHub usernames and their email addresses.
+
 
 |Name       | Email      | Github |
 | --------- | :---------:|------:|
