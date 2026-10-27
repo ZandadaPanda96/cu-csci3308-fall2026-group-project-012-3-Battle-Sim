@@ -11,16 +11,13 @@ List the First & Last name of team members, their GitHub usernames and their ema
 
 |Name       | Email      | Github |
 | --------- | :---------:|------:|
-| Max Martin | maxwellmartin1005@gmail.com | github here |
-| Name | <email here | github here |
-| Name | <email here | github here |
-| Name | <email here | github here |
-| Name | <email here | github here |
-| Name | <email here | github here |
-| Name | <email here | github here |
-| Name | <email here | github here |
-| Name | <email here | github here |
-| Name | <email here | github here |
+| Max Martin | Max.Martin-2@colorado.edu | maxwellmartin1005-blip |
+| Jamie Grove | Jamie.Grove@colorado.edu | github here |
+| Aidan Johnson | Aidan.Johnson-2@colorado.edu | Aidan-dev50 |
+| Andre Kalberer | Andre.Kalberer@colorado.edu | github here |
+| Zander Trafton-Hancock | Zander.Trafton-Hancock@colorado.edu |ZandadaPanda96 |
+| Yuan Zuo | Yuan.Zuo@colorado.edu | github here |
+
 
 
 
