@@ -1,20 +1,17 @@
-Deliverables
-Before starting this discussion, assign a scribe who will start a document and take notes on the items listed below. The team will proofread and submit this document as your deliverable for this lab.
+<!---Yuan was a great help on 7,8,9,10,12 and 14, as well as fixing some spelling errors not in those issues, thank you Yuan!  --->
 # 1. Team Number
 012-3
 
 # 2. Team name
-You will collectively choose a name for your team to represent a vision you have for the application you're creating. It can be used in addition to your Team Number for all deliverables and presentations. Current winning name is Team Avatar
+Team Avatar
 
 # 3. Team Members
-List the First & Last name of team members, their GitHub usernames and their email addresses.
-
 |Name       | Email      | Github |
 | --------- | :---------:|------:|
 | Max Martin | Max.Martin-2@colorado.edu | maxwellmartin1005-blip |
-| Jamie Grove | Jamie.Grove@colorado.edu | github here |
+| Jamie Grove | Jamie.Grove@colorado.edu | jamiegrove76-pixel |
 | Aidan Johnson | Aidan.Johnson-2@colorado.edu | Aidan-dev50 |
-| Andre Kalberer | Andre.Kalberer@colorado.edu | github here |
+| Andre Kalberer | Andre.Kalberer@colorado.edu | AndreKalberer |
 | Zander Trafton-Hancock | Zander.Trafton-Hancock@colorado.edu |ZandadaPanda96 |
 | Yuan Zuo | Yuan.Zuo@colorado.edu | yuanzuo09 |
 
@@ -25,59 +22,35 @@ List the First & Last name of team members, their GitHub usernames and their ema
 Battle Sim 
 
 # 5. Application Description
-A short (2-3 paragraphs) overview description of the application. Provide enough information to explain what functionality and value your product will provide to users of your application. This should help you to define the scope of your project:
 
-Unnamed battle sim is an online turn-based multiplayer creature battler where players fight against each other with avatars of themselves or others. While there are many similar games currently on the market, what sets (name here) apart is its customisability, and instead of creatures doing the battling, it is a direct representation of the player(or even someone else). By default, there is at least one(probably two for testing) premade fighter for example purposes. The character creation process is done by uploading an image of yourself and then selecting your move set(more info is needed on how this is to work, such as balancing, how many moves, and other mechanics, one form of balance may be to have some things tied to a random number generator, such as health, what types of moves you could choose for this character, etc. Speaking of moves, we could combine the previous idea with a class/type system, for example, if someone designs their avatar to be a fire class character, they will have acess to choose moves that class can learn, including some exclusive moves, but to avoid the issue of players just choosing the strongest moves, we could partially randomize what moves they could choose from. Another way we could solve the move balancing issue is by having a leveling system that unlocks more moves.) This section needs rewiritng now that we have more info
 
+Battle Sim is an online turn-based multiplayer creature battler where players fight against each other with avatars of themselves or others. While there are many similar games currently on the market, what sets Battle Sim apart is its customisability, as instead of creatures doing the battling, it is a direct representation of the player(or even someone else they may know). By default, there is at least one(probably two for testing) premade fighter for testing and those who don't want to make their own. 
+
+## Character creation
+The character creation process is done by uploading an image of the fighter and then going through a process to select the moves. First, the user selects an elemental type, Fire, Water, Earth, Life, Light, or Dark. After the type is selected, a move pool is created, these moves are chosen randomly(TBD) from a general move pool for that type. Please note that every move pool is made up of its element but may have other elemental moves as well, such as elmentless. They may even have moves from other elements(TBD). It is important to note that moves that match the element of the fighter will be stronger than those that do not match(TBD). The user then selects four(exact number TBD), and they are ready for battle. To use their newly created fighter, the player returns to the main menu and opens the battle menu. Once a player enters the battle menu, they may select a character and then select a lobby from all open player lobbies (MAX player count of 2 per lobby) or create their own(TBD). Once inside the lobby a player may change their charecter, once a player is ready they click the "Mark as Ready" button, once both player have done so the battle beguins. 
+
+## Battle
+The game randomly chooses which player goes first, and then both players select their moves. The game will wait to continue until both players have decided their moves. Once moves are decided, the battle starts with the turn player's move hitting first. After the selected moves have finished, the move menu shows up again, and the player who was not the turn player becomes the turn player. This cycle repeats until one player's Health Points(HP) are reduced to zero. It should be noted that different elemental-typed moves are weaker or stronger against certain elemental-type fighters. Water is weak to Earth and Life moves, but stronger against Earth and Fire fighters. Life is weak to Fire and Dark moves, but stronger against Water and Earth fighters, they receive a slight temporary stat boost when hit with a Light move, but have a slight temporary stat loss when hit with a Dark move(TBD). Earth is weak to Water and Life moves but strong against Water fighters. Fire is weak to Water moves but strong against Life fighters. Light is weak to Dark moves, while being stronger against Dark fighters. Dark is weak against Life, but strong against Life and Light Fighters. This elemntal system is bassed on how we see this "elements" act in the real world, like water being able to errode the earth, but dirt can also fill a lake absrobing the water, which is why they are both weak and strong against eachohter(TBD). The Turn player's moves do not always hit first, some moves may change this fact for a set amount of turns(TBD)
+
+### Notes
+Mechanics are subject to change
 
 
 # 6. Audience
-Define the target audience for your application by identifying the characteristics of an ideal user. Clearly articulate the specific problem your software aims to solve for this user group. Additionally, consider the usability and accessibility of the application, ensuring that interactions are intuitive and convenient for the intended audience.
-Understanding their background helps shape features and design.
-
 Our target audience is those looking for a fun game to play together while also looking for a customizable experience. 
 
 # 7. Vision Statement
-A simple, one or two sentence statement describing the clear and inspirational desired state resulting from your team’s efforts to create your application. Following is a template you might want to use:
-For [target customer], Who [statement of the need]. The [product name] is a [product category] that [key benefit, compelling reason to buy]. Unlike [primary competitive alternative], our product [statement of primary differentiation]
-Examples
-Amazon: “To be Earth’s most customer-centric company, where customers can find and discover anything they might want to buy online.”
-Tesla: “To create the most compelling car company of the 21st century by driving the world’s transition to electric vehicles.”
-Facebook: “People use Facebook to stay connected with friends and family, to discover what’s going on in the world, and to share and express what matters to them.”
-CU Boulder: “To be a leader in addressing the humanitarian, social, and technological challenges of the twenty-first century.”
-IKEA: “To create a better everyday life for many people.”
-Nordstrom: “Offer the customer the best possible service, selection,quality, and value.”
-Google: “To provide access to the world’s information in one click.”
-
 Our vision statement is: "To create an original and entertaining battle simulator that combines customizable character building with strategic turn-based combat."
 
 # 8. Version Control info
-You are required to create a public GitHub repository and add all the members of the team to it. Share the link to this repository in this document.
-The root of your project repository should ONLY have the following files/folders. Make sure you organize any additional files you create for the project within the folders listed below.
-TeamMeetingLogs - The minutes of the meeting with your TA every week will be recorded in a file here. You will be updating the same file every week with the latest updates. Points to include in the minutes would be:
-Decisions made
-Alternative actions/options discussed
-Follow-up items, including agreed-on roles and responsibilities
-MilestoneSubmissions - All course-related documents, including this one, will be stored in this folder.
-ProjectSourceCode - The source code and all relevant project documentation for the application will be stored in this folder.
-ReadMe.md - Refer to the project guide for more information on this.
-For a detailed view of your repository, refer to the project guide
-.gitignore - Please remember to create a .gitignore file in your "ProjectSourceCode" folder in the repository
-
 [Github Repository Link](https://github.com/ZandadaPanda96/cu-csci3308-fall2026-group-project-012-3-Battle-Sim)
 
 # 9. Development Methodology
-Since this project is scheduled for 4 weeks, we encourage you to use an Agile Methodology. You can also use a hybrid set of practices from different methodologies. For example, you can use Scrum meetings and Kanban boards to track the progress of your project. The important thing is to have a plan and stick to it.
-
 We will use a hybrid Agile Methodology that draws ideas from Scrum and Kanban. 
 Particularly, we will have one or multiple short weekly Scrum meetings to discuss about our progress and coordinate work to do for the next sprint.
-At the same time, we will track our progress visually in Github issues by opening multiple epics and stories for people to work on and check off.
+At the same time, we will track our progress visually in GitHub issues by opening multiple epics and stories for people to work on and check off.
 
 # 10. Communication Plan
-Describe in a sentence or two how your team plans to communicate with each other during the course of the project. You must identify a collaboration tool for team members to utilize for coordination of their work and communication among team members and with the TA. Some tools you could use: MS Teams, Slack, Discord, Google Groups, etc. Please refrain from using IMs/Text Messages for the purposes of this project.
-tip
-You can track communication for project development tasks as comments on the user story issues you create on the GitHub project board. That will help you keep the discussions topic specific and organized.
-
 We plan to use Discord as our primary way of communication, and we have already set up a discord server for the project. 
 In discord, we will be using the threads feature to keep conversation topics specific and make the chat more organized for future reference.
 
@@ -86,27 +59,31 @@ Team Meeting: Identify the day(s) and time(s), mode, and location your team has 
 Weekly meeting with TA: You will also mention the meeting day, time and location (in-person or online) for the weekly meeting with your TA here.
 Please refer to these instructions for expectations in your weekly meeting with your TAs. Do read the entire section carefully.
 
-Still needs to be filled out but we have it planned
+All times below are in MDT unless otherwise stated
+
+Team meetings are currently planned to be held in person during recitation hours, which are 11:25 AM- 1:05 PM on Thursdays. If other meetings are required, they will be scheduled as the need arises
+
+Weekly meetings with our TA, Altaf Barelvi, will take place on Tuesday from 10:00 AM to 10:15 AM via Zoom
+
+(Based on the wording, do we need to do a meeting outside of REC hours as well as attending REC?)
+
+## Please note
+All times listed above are subject to change
 
 # 12. Use Case Diagram
-Create a high-level Use Case Diagram for your application. Your diagram must show at least 6 key features of your application.
-This activity should help you identify the end users of the application and the ways they would interact with the system. You can reference the examples covered in class. This will also help you scope out the features of your application. You can refer to this page for more information on how to create a Use Case Diagram.
 
-![Use Case Diagram](use_case_diagram.png) See use_case_diagram.md for more details.
+<!---- Thank you again Jamie! for making the Diagram! ----->
+![Use Case Diagram](use_case_diagram.png) See [use_case_diagram.md](use_case_diagram.md) for more details.
 
 # 13. Wireframes
 You will create wireframes for each page of the application.
 Wireframes are low-fidelity visual representations of the user interface of your application. They are used to plan the layout of the application and to communicate the flow of the application to the team. You can use any tool of your choice to create the wireframes. Hand sketched wireframes are also acceptable. You can refer to this for more information on why and how
 
-import wireframes here
+(WIREFRAMES GO HERE)
 
-# Extra Credit
-Identify at least five potential risks related to your project. For each risk, describe its severity and outline suitable mitigation strategies to address it. Make sure to add a note in your proposal that this is the submission for extra credit.
 
-| # | Risk | Severity | Mitigation | 
-|---|------|----------|------------|
-| 1 | A team member doesn't finish their part | High | Track tasks on GitHub, check in with the team, and reassign work if someone is stuck. |
-| 2 | Merge conflicts when multiple people edit the same file | Medium | Everyone works on their own branch, keeps pull requests small, and pulls from main every time they start working. |
-| 3 | Battles are unbalanced or battle logic has bugs | Medium | Keep the battle logic in its own file, test it separately, and adjust move values accordingly. |
-| 4 | Changes to the database tables break other teammates' code | Medium | Keep the table setup in one shared SQL file and tell the team before changing it. | 
-| 5 | The app runs differently on each teammate's computer | Medium | Everyone runs the app through one shared Docker Compose setup. |
+<!---- thank you once again Jamie for writing all this up! ----->
+
+# Risk Analysis (Extra Credit)
+See [risk_analysis.md](risk_analysis.md) for more details.
+
