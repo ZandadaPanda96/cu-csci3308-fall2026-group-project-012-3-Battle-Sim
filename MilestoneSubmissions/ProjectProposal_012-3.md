@@ -51,7 +51,14 @@ Team Meeting: Identify the day(s) and time(s), mode, and location your team has 
 Weekly meeting with TA: You will also mention the meeting day, time and location (in-person or online) for the weekly meeting with your TA here.
 Please refer to these instructions for expectations in your weekly meeting with your TAs. Do read the entire section carefully.
 
-Still needs to be filled out but we have it planned
+All times bellow are in MDT unless othweise stated
+
+Team meetings are currently planed to be held in person during recitation hours, which are 11:25 AM- 1:05 PM on Thursdays. If other meetings are required they will be scheduled as the need arises
+
+Weekly meetings with our TA [name here] will take place on Tuesday 10:00 AM to 10:15 AM
+
+## Please note
+All times listed above are subject to change
 
 # 12. Use Case Diagram
 
