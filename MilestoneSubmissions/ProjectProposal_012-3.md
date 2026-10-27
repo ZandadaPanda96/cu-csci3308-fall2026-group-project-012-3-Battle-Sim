@@ -49,6 +49,7 @@ IKEA: “To create a better everyday life for many people.”
 Nordstrom: “Offer the customer the best possible service, selection,quality, and value.”
 Google: “To provide access to the world’s information in one click.”
 
+Our vision statement is: "To create an original and entertaining battle simulator that combines customizable character building with strategic turn-based combat."
 
 # 8. Version Control info
 You are required to create a public GitHub repository and add all the members of the team to it. Share the link to this repository in this document.
