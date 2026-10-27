@@ -42,7 +42,7 @@ Our target audience is those looking for a fun game to play together while also 
 # 7. Vision Statement
 Our vision statement is: "To create an original and entertaining battle simulator that combines customizable character building with strategic turn-based combat."
 
-# 8. Version Control info
+# 8. Version Control Info
 [Github Repository Link](https://github.com/ZandadaPanda96/cu-csci3308-fall2026-group-project-012-3-Battle-Sim)
 
 # 9. Development Methodology
@@ -72,17 +72,17 @@ All times listed above are subject to change
 
 # 12. Use Case Diagram
 
-<!---- Thank you again Jamie! for making the Diagram! ----->
+<!---- Thank you again, Jamie! for making the Diagram! ----->
 ![Use Case Diagram](use_case_diagram.png) See [use_case_diagram.md](use_case_diagram.md) for more details.
 
 # 13. Wireframes
-<!--- Thank you Andre for all the Wireframes!--->
+<!--- Thank you, Andre, for all the Wireframes!--->
 
 ## Login:
 ![Login Page](./wireframes/login.png)
 
-## User Registartion:
-![User Registartion Page](./wireframes/register.png)
+## User Registration:
+![User Registration Page](./wireframes/register.png)
 
 ## Home:
 ![Home Page](./wireframes/home.png)
@@ -99,11 +99,11 @@ All times listed above are subject to change
 ## Battle Result:
 ![Battle Result Page](./wireframes/battle-result.png)
 
-### Wireframe notes:
+### Wireframe Botes:
 Please see [notes.md](./wireframes/notes.md) for more details.
 
 
-<!---- thank you once again Jamie for writing all this up! ----->
+<!---- Thank you once again, Jamie, for writing all this up! ----->
 
 # Risk Analysis (Extra Credit)
 Please see [risk_analysis.md](risk_analysis.md) for more details.
