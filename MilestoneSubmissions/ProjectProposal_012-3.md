@@ -16,7 +16,7 @@ List the First & Last name of team members, their GitHub usernames and their ema
 | Aidan Johnson | Aidan.Johnson-2@colorado.edu | Aidan-dev50 |
 | Andre Kalberer | Andre.Kalberer@colorado.edu | github here |
 | Zander Trafton-Hancock | Zander.Trafton-Hancock@colorado.edu |ZandadaPanda96 |
-| Yuan Zuo | Yuan.Zuo@colorado.edu | github here |
+| Yuan Zuo | Yuan.Zuo@colorado.edu | yuanzuo09 |
 
 
 
@@ -35,7 +35,7 @@ Unnamed battle sim is an online turn-based multiplayer creature battler where pl
 Define the target audience for your application by identifying the characteristics of an ideal user. Clearly articulate the specific problem your software aims to solve for this user group. Additionally, consider the usability and accessibility of the application, ensuring that interactions are intuitive and convenient for the intended audience.
 Understanding their background helps shape features and design.
 
-Our target audience is those looking for a fun game to play together while aslo lokoing for a customizable experince. 
+Our target audience is those looking for a fun game to play together while also looking for a customizable experience. 
 
 # 7. Vision Statement
 A simple, one or two sentence statement describing the clear and inspirational desired state resulting from your team’s efforts to create your application. Following is a template you might want to use:
@@ -49,7 +49,7 @@ IKEA: “To create a better everyday life for many people.”
 Nordstrom: “Offer the customer the best possible service, selection,quality, and value.”
 Google: “To provide access to the world’s information in one click.”
 
-We still need a vision statment
+Our vision statement is: "To create an original and entertaining battle simulator that combines customizable character building with strategic turn-based combat."
 
 # 8. Version Control info
 You are required to create a public GitHub repository and add all the members of the team to it. Share the link to this repository in this document.
@@ -64,17 +64,22 @@ ReadMe.md - Refer to the project guide for more information on this.
 For a detailed view of your repository, refer to the project guide
 .gitignore - Please remember to create a .gitignore file in your "ProjectSourceCode" folder in the repository
 
-I need to fill this part out but we already have the idea I belivie.
+[Github Repository Link](https://github.com/ZandadaPanda96/cu-csci3308-fall2026-group-project-012-3-Battle-Sim)
 
 # 9. Development Methodology
 Since this project is scheduled for 4 weeks, we encourage you to use an Agile Methodology. You can also use a hybrid set of practices from different methodologies. For example, you can use Scrum meetings and Kanban boards to track the progress of your project. The important thing is to have a plan and stick to it.
 
-We kinda have a development plan I just need to write it down.
+We will use a hybrid Agile Methodology that draws ideas from Scrum and Kanban. 
+Particularly, we will have one or multiple short weekly Scrum meetings to discuss about our progress and coordinate work to do for the next sprint.
+At the same time, we will track our progress visually in Github issues by opening multiple epics and stories for people to work on and check off.
 
 # 10. Communication Plan
 Describe in a sentence or two how your team plans to communicate with each other during the course of the project. You must identify a collaboration tool for team members to utilize for coordination of their work and communication among team members and with the TA. Some tools you could use: MS Teams, Slack, Discord, Google Groups, etc. Please refrain from using IMs/Text Messages for the purposes of this project.
 tip
 You can track communication for project development tasks as comments on the user story issues you create on the GitHub project board. That will help you keep the discussions topic specific and organized.
+
+We plan to use Discord as our primary way of communication, and we have already set up a discord server for the project. 
+In discord, we will be using the threads feature to keep conversation topics specific and make the chat more organized for future reference.
 
 # 11. Meeting Plan
 Team Meeting: Identify the day(s) and time(s), mode, and location your team has agreed upon for regular meetings. “Modality” refers to how you are meeting (face-to-face), group video chat (like Zoom, Google Meet), etc.
@@ -87,7 +92,7 @@ Still needs to be filled out but we have it planned
 Create a high-level Use Case Diagram for your application. Your diagram must show at least 6 key features of your application.
 This activity should help you identify the end users of the application and the ways they would interact with the system. You can reference the examples covered in class. This will also help you scope out the features of your application. You can refer to this page for more information on how to create a Use Case Diagram.
 
-import case digram here
+![Use Case Diagram](use_case_diagram.png) See use_case_diagram.md for more details.
 
 # 13. Wireframes
 You will create wireframes for each page of the application.
@@ -96,5 +101,12 @@ Wireframes are low-fidelity visual representations of the user interface of your
 import wireframes here
 
 # Extra Credit
-
 Identify at least five potential risks related to your project. For each risk, describe its severity and outline suitable mitigation strategies to address it. Make sure to add a note in your proposal that this is the submission for extra credit.
+
+| # | Risk | Severity | Mitigation | 
+|---|------|----------|------------|
+| 1 | A team member doesn't finish their part | High | Track tasks on GitHub, check in with the team, and reassign work if someone is stuck. |
+| 2 | Merge conflicts when multiple people edit the same file | Medium | Everyone works on their own branch, keeps pull requests small, and pulls from main every time they start working. |
+| 3 | Battles are unbalanced or battle logic has bugs | Medium | Keep the battle logic in its own file, test it separately, and adjust move values accordingly. |
+| 4 | Changes to the database tables break other teammates' code | Medium | Keep the table setup in one shared SQL file and tell the team before changing it. | 
+| 5 | The app runs differently on each teammate's computer | Medium | Everyone runs the app through one shared Docker Compose setup. |
