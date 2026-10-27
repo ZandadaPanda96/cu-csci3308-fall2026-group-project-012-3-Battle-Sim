@@ -1,5 +1,4 @@
-Deliverables
-Before starting this discussion, assign a scribe who will start a document and take notes on the items listed below. The team will proofread and submit this document as your deliverable for this lab.
+<!---Yuan was a great help on 7,8,9,10,12 and 14, as well as fixing some spelling errors not in those issues, thank you Yuan!  --->
 # 1. Team Number
 012-3
 
@@ -14,7 +13,7 @@ Team Avatar
 | Aidan Johnson | Aidan.Johnson-2@colorado.edu | Aidan-dev50 |
 | Andre Kalberer | Andre.Kalberer@colorado.edu | AndreKalberer |
 | Zander Trafton-Hancock | Zander.Trafton-Hancock@colorado.edu |ZandadaPanda96 |
-| Yuan Zuo | Yuan.Zuo@colorado.edu | github here |
+| Yuan Zuo | Yuan.Zuo@colorado.edu | yuanzuo09 |
 
 
 
@@ -30,49 +29,22 @@ Battle Sim is an online turn-based multiplayer creature battler where players fi
 
 
 # 6. Audience
-Define the target audience for your application by identifying the characteristics of an ideal user. Clearly articulate the specific problem your software aims to solve for this user group. Additionally, consider the usability and accessibility of the application, ensuring that interactions are intuitive and convenient for the intended audience.
-Understanding their background helps shape features and design.
-
-Our target audience is those looking for a fun game to play together while aslo lokoing for a customizable experince. 
+Our target audience is those looking for a fun game to play together while also looking for a customizable experience. 
 
 # 7. Vision Statement
-A simple, one or two sentence statement describing the clear and inspirational desired state resulting from your team’s efforts to create your application. Following is a template you might want to use:
-For [target customer], Who [statement of the need]. The [product name] is a [product category] that [key benefit, compelling reason to buy]. Unlike [primary competitive alternative], our product [statement of primary differentiation]
-Examples
-Amazon: “To be Earth’s most customer-centric company, where customers can find and discover anything they might want to buy online.”
-Tesla: “To create the most compelling car company of the 21st century by driving the world’s transition to electric vehicles.”
-Facebook: “People use Facebook to stay connected with friends and family, to discover what’s going on in the world, and to share and express what matters to them.”
-CU Boulder: “To be a leader in addressing the humanitarian, social, and technological challenges of the twenty-first century.”
-IKEA: “To create a better everyday life for many people.”
-Nordstrom: “Offer the customer the best possible service, selection,quality, and value.”
-Google: “To provide access to the world’s information in one click.”
-
-We still need a vision statment
+Our vision statement is: "To create an original and entertaining battle simulator that combines customizable character building with strategic turn-based combat."
 
 # 8. Version Control info
-You are required to create a public GitHub repository and add all the members of the team to it. Share the link to this repository in this document.
-The root of your project repository should ONLY have the following files/folders. Make sure you organize any additional files you create for the project within the folders listed below.
-TeamMeetingLogs - The minutes of the meeting with your TA every week will be recorded in a file here. You will be updating the same file every week with the latest updates. Points to include in the minutes would be:
-Decisions made
-Alternative actions/options discussed
-Follow-up items, including agreed-on roles and responsibilities
-MilestoneSubmissions - All course-related documents, including this one, will be stored in this folder.
-ProjectSourceCode - The source code and all relevant project documentation for the application will be stored in this folder.
-ReadMe.md - Refer to the project guide for more information on this.
-For a detailed view of your repository, refer to the project guide
-.gitignore - Please remember to create a .gitignore file in your "ProjectSourceCode" folder in the repository
-
-I need to fill this part out but we already have the idea I belivie.
+[Github Repository Link](https://github.com/ZandadaPanda96/cu-csci3308-fall2026-group-project-012-3-Battle-Sim)
 
 # 9. Development Methodology
-Since this project is scheduled for 4 weeks, we encourage you to use an Agile Methodology. You can also use a hybrid set of practices from different methodologies. For example, you can use Scrum meetings and Kanban boards to track the progress of your project. The important thing is to have a plan and stick to it.
-
-We kinda have a development plan I just need to write it down.
+We will use a hybrid Agile Methodology that draws ideas from Scrum and Kanban. 
+Particularly, we will have one or multiple short weekly Scrum meetings to discuss about our progress and coordinate work to do for the next sprint.
+At the same time, we will track our progress visually in Github issues by opening multiple epics and stories for people to work on and check off.
 
 # 10. Communication Plan
-Describe in a sentence or two how your team plans to communicate with each other during the course of the project. You must identify a collaboration tool for team members to utilize for coordination of their work and communication among team members and with the TA. Some tools you could use: MS Teams, Slack, Discord, Google Groups, etc. Please refrain from using IMs/Text Messages for the purposes of this project.
-tip
-You can track communication for project development tasks as comments on the user story issues you create on the GitHub project board. That will help you keep the discussions topic specific and organized.
+We plan to use Discord as our primary way of communication, and we have already set up a discord server for the project. 
+In discord, we will be using the threads feature to keep conversation topics specific and make the chat more organized for future reference.
 
 # 11. Meeting Plan
 Team Meeting: Identify the day(s) and time(s), mode, and location your team has agreed upon for regular meetings. “Modality” refers to how you are meeting (face-to-face), group video chat (like Zoom, Google Meet), etc.
