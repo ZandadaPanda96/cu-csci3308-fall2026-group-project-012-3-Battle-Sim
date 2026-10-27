@@ -49,7 +49,6 @@ IKEA: “To create a better everyday life for many people.”
 Nordstrom: “Offer the customer the best possible service, selection,quality, and value.”
 Google: “To provide access to the world’s information in one click.”
 
-To offer a original, 
 
 # 8. Version Control info
 You are required to create a public GitHub repository and add all the members of the team to it. Share the link to this repository in this document.
@@ -69,7 +68,9 @@ For a detailed view of your repository, refer to the project guide
 # 9. Development Methodology
 Since this project is scheduled for 4 weeks, we encourage you to use an Agile Methodology. You can also use a hybrid set of practices from different methodologies. For example, you can use Scrum meetings and Kanban boards to track the progress of your project. The important thing is to have a plan and stick to it.
 
-We kinda have a development plan I just need to write it down.
+We will use a hybrid Agile Methodology that draws ideas from Scrum and Kanban. 
+Particularly, we will have one or multiple short weekly Scrum meetings to discuss about our progress and coordinate work to do for the next sprint.
+At the same time, we will track our progress visually in Github issues by opening multiple epics and stories for people to work on and check off.
 
 # 10. Communication Plan
 Describe in a sentence or two how your team plans to communicate with each other during the course of the project. You must identify a collaboration tool for team members to utilize for coordination of their work and communication among team members and with the TA. Some tools you could use: MS Teams, Slack, Discord, Google Groups, etc. Please refrain from using IMs/Text Messages for the purposes of this project.
