@@ -9,7 +9,10 @@ These are low-fidelity design concepts. They do not implement authentication or 
 
 ## Review notes
 
-- The tiny signup box/arrow in the login sketch is a navigation annotation, not an additional input.
+- Register is a navigation link to registration, not another input.
 - Blank password fields stand for masked password entry.
-- Validation/error-state designs still need review; these images do not by themselves satisfy every acceptance criterion in #15.
+- Login annotates missing-field and invalid-credential errors, preserves email after an error, and identifies Home as the success destination.
+- Registration annotates missing fields, existing email, and mismatched passwords. Name/email are retained after errors, and success returns to login.
+- The error annotations describe alternative states, not messages permanently displayed together.
+- Fields and registration behavior still need team confirmation and a recorded teammate review.
 - Desktop layout only; responsive behavior is not defined here.
