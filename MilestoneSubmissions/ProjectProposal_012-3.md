@@ -4,7 +4,7 @@ Before starting this discussion, assign a scribe who will start a document and t
 012-3
 
 # 2. Team name
-You will collectively choose a name for your team to represent a vision you have for the application you're creating. It can be used in addition to your Team Number for all deliverables and presentations. Current winning name is Team Avatar
+Team Avatar
 
 # 3. Team Members
 List the First & Last name of team members, their GitHub usernames and their email addresses.
