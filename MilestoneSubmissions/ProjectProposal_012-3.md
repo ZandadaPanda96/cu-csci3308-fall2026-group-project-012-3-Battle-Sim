@@ -7,8 +7,6 @@ Before starting this discussion, assign a scribe who will start a document and t
 Team Avatar
 
 # 3. Team Members
-
-
 |Name       | Email      | Github |
 | --------- | :---------:|------:|
 | Max Martin | Max.Martin-2@colorado.edu | maxwellmartin1005-blip |
