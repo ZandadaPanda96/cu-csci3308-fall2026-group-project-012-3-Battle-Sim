@@ -25,13 +25,12 @@ List the First & Last name of team members, their GitHub usernames and their ema
 
 
 # 4. Application Name
-Pick a befitting name to convey the purpose of your application. To be used in all 
-presentations(weekly to your TA and the final one)
+Battle Sim 
 
 # 5. Application Description
 A short (2-3 paragraphs) overview description of the application. Provide enough information to explain what functionality and value your product will provide to users of your application. This should help you to define the scope of your project:
 
-Unnamed battle sim is an online turn-based multiplayer creature battler where players fight against each other with avatars of themselves or others. While there are many similar games currently on the market, what sets (name here) apart is its customisability, and instead of creatures doing the battling, it is a direct representation of the player(or even someone else). By default, there is at least one(probably two for testing) premade fighter for example purposes. The character creation process is done by uploading an image of yourself and then selecting your move set(more info is needed on how this is to work, such as balancing, how many moves, and other mechanics, one form of balance may be to have some things tied to a random number generator, such as health, what types of moves you could choose for this character, etc. Speaking of moves, we could combine the previous idea with a class/type system, for example, if someone designs their avatar to be a fire class character, they will have acess to choose moves that class can learn, including some exclusive moves, but to avoid the issue of players just choosing the strongest moves, we could partially randomize what moves they could choose from. Another way we could solve the move balancing issue is by having a leveling system that unlocks more moves.
+Unnamed battle sim is an online turn-based multiplayer creature battler where players fight against each other with avatars of themselves or others. While there are many similar games currently on the market, what sets (name here) apart is its customisability, and instead of creatures doing the battling, it is a direct representation of the player(or even someone else). By default, there is at least one(probably two for testing) premade fighter for example purposes. The character creation process is done by uploading an image of yourself and then selecting your move set(more info is needed on how this is to work, such as balancing, how many moves, and other mechanics, one form of balance may be to have some things tied to a random number generator, such as health, what types of moves you could choose for this character, etc. Speaking of moves, we could combine the previous idea with a class/type system, for example, if someone designs their avatar to be a fire class character, they will have acess to choose moves that class can learn, including some exclusive moves, but to avoid the issue of players just choosing the strongest moves, we could partially randomize what moves they could choose from. Another way we could solve the move balancing issue is by having a leveling system that unlocks more moves.) This section needs rewiritng now that we have more info
 
 
 
@@ -68,8 +67,12 @@ ReadMe.md - Refer to the project guide for more information on this.
 For a detailed view of your repository, refer to the project guide
 .gitignore - Please remember to create a .gitignore file in your "ProjectSourceCode" folder in the repository
 
+I need to fill this part out but we already have the idea I belivie.
+
 # 9. Development Methodology
 Since this project is scheduled for 4 weeks, we encourage you to use an Agile Methodology. You can also use a hybrid set of practices from different methodologies. For example, you can use Scrum meetings and Kanban boards to track the progress of your project. The important thing is to have a plan and stick to it.
+
+We kinda have a development plan I just need to write it down.
 
 # 10. Communication Plan
 Describe in a sentence or two how your team plans to communicate with each other during the course of the project. You must identify a collaboration tool for team members to utilize for coordination of their work and communication among team members and with the TA. Some tools you could use: MS Teams, Slack, Discord, Google Groups, etc. Please refrain from using IMs/Text Messages for the purposes of this project.
@@ -81,7 +84,7 @@ Team Meeting: Identify the day(s) and time(s), mode, and location your team has 
 Weekly meeting with TA: You will also mention the meeting day, time and location (in-person or online) for the weekly meeting with your TA here.
 Please refer to these instructions for expectations in your weekly meeting with your TAs. Do read the entire section carefully.
 
-Still needs to be filled out
+Still needs to be filled out but we have it planned
 
 # 12. Use Case Diagram
 Create a high-level Use Case Diagram for your application. Your diagram must show at least 6 key features of your application.
@@ -94,3 +97,7 @@ You will create wireframes for each page of the application.
 Wireframes are low-fidelity visual representations of the user interface of your application. They are used to plan the layout of the application and to communicate the flow of the application to the team. You can use any tool of your choice to create the wireframes. Hand sketched wireframes are also acceptable. You can refer to this for more information on why and how
 
 import wireframes here
+
+# Extra Credit
+
+Identify at least five potential risks related to your project. For each risk, describe its severity and outline suitable mitigation strategies to address it. Make sure to add a note in your proposal that this is the submission for extra credit.
