@@ -16,7 +16,7 @@ List the First & Last name of team members, their GitHub usernames and their ema
 | Aidan Johnson | Aidan.Johnson-2@colorado.edu | Aidan-dev50 |
 | Andre Kalberer | Andre.Kalberer@colorado.edu | github here |
 | Zander Trafton-Hancock | Zander.Trafton-Hancock@colorado.edu |ZandadaPanda96 |
-| Yuan Zuo | Yuan.Zuo@colorado.edu | github here |
+| Yuan Zuo | Yuan.Zuo@colorado.edu | yuanzuo09 |
 
 
 
@@ -49,7 +49,7 @@ IKEA: “To create a better everyday life for many people.”
 Nordstrom: “Offer the customer the best possible service, selection,quality, and value.”
 Google: “To provide access to the world’s information in one click.”
 
-We still need a vision statment
+To offer a original, 
 
 # 8. Version Control info
 You are required to create a public GitHub repository and add all the members of the team to it. Share the link to this repository in this document.
@@ -64,7 +64,7 @@ ReadMe.md - Refer to the project guide for more information on this.
 For a detailed view of your repository, refer to the project guide
 .gitignore - Please remember to create a .gitignore file in your "ProjectSourceCode" folder in the repository
 
-I need to fill this part out but we already have the idea I belivie.
+[Github Repository Link](https://github.com/ZandadaPanda96/cu-csci3308-fall2026-group-project-012-3-Battle-Sim)
 
 # 9. Development Methodology
 Since this project is scheduled for 4 weeks, we encourage you to use an Agile Methodology. You can also use a hybrid set of practices from different methodologies. For example, you can use Scrum meetings and Kanban boards to track the progress of your project. The important thing is to have a plan and stick to it.
@@ -75,6 +75,9 @@ We kinda have a development plan I just need to write it down.
 Describe in a sentence or two how your team plans to communicate with each other during the course of the project. You must identify a collaboration tool for team members to utilize for coordination of their work and communication among team members and with the TA. Some tools you could use: MS Teams, Slack, Discord, Google Groups, etc. Please refrain from using IMs/Text Messages for the purposes of this project.
 tip
 You can track communication for project development tasks as comments on the user story issues you create on the GitHub project board. That will help you keep the discussions topic specific and organized.
+
+We plan to use Discord as our primary way of communication, and we have already set up a discord server for the project. 
+In discord, we will be using the threads feature to keep conversation topics specific and make the chat more organized for future reference.
 
 # 11. Meeting Plan
 Team Meeting: Identify the day(s) and time(s), mode, and location your team has agreed upon for regular meetings. “Modality” refers to how you are meeting (face-to-face), group video chat (like Zoom, Google Meet), etc.
