@@ -63,11 +63,11 @@ app.post('/login', (req, res) => {
 });
 
 app.get('/characterSelect', (req,res) => {
-  res.render('characterSelect');
+  res.render('pages/characterSelect');
 });
 
 app.get('/battle', (req, res) => {
-  res.render('battle')
+  res.render('pages/battle')
 });
 
 // Listen on port 3000
