@@ -47,6 +47,8 @@ app.get('/login', (req, res) => {
 });
 
 app.post('/login', (req, res) => {
+  // TODO: Add login verification here
+  
   res.redirect('/characterSelect');
 });
 
