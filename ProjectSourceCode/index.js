@@ -42,13 +42,23 @@ app.get('/', (req, res) => {
   res.redirect('/login'); //this will call the /login route in the API
 });
 
+app.get('/register', (req, res) => {
+  res.render('pages/register')
+});
+
+app.post('/register', (req, res) => {
+  // TODO: Add registration functionality here
+  
+  res.redirect('/login');
+});
+
 app.get('/login', (req, res) => {
   res.render('pages/login')
 });
 
 app.post('/login', (req, res) => {
   // TODO: Add login verification here
-  
+
   res.redirect('/characterSelect');
 });
 
