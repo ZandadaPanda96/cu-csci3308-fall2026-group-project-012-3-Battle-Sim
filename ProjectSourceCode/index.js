@@ -29,6 +29,7 @@ const hbs = handlebars.create({
 // *****************************************************
 
 // Register `hbs` as our view engine using its bound `engine()` function.
+app.use(express.static(path.join(__dirname)));
 app.engine('hbs', hbs.engine);
 app.set('view engine', 'hbs');
 app.set('views', path.join(__dirname, 'views'));
