@@ -42,7 +42,7 @@ Our target audience is those looking for a fun game to play together while also 
 # 7. Vision Statement
 Our vision statement is: "To create an original and entertaining battle simulator that combines customizable character building with strategic turn-based combat."
 
-# 8. Version Control info
+# 8. Version Control Info
 [Github Repository Link](https://github.com/ZandadaPanda96/cu-csci3308-fall2026-group-project-012-3-Battle-Sim)
 
 # 9. Development Methodology
@@ -72,18 +72,39 @@ All times listed above are subject to change
 
 # 12. Use Case Diagram
 
-<!---- Thank you again Jamie! for making the Diagram! ----->
+<!---- Thank you again, Jamie! for making the Diagram! ----->
 ![Use Case Diagram](use_case_diagram.png) See [use_case_diagram.md](use_case_diagram.md) for more details.
 
 # 13. Wireframes
-You will create wireframes for each page of the application.
-Wireframes are low-fidelity visual representations of the user interface of your application. They are used to plan the layout of the application and to communicate the flow of the application to the team. You can use any tool of your choice to create the wireframes. Hand sketched wireframes are also acceptable. You can refer to this for more information on why and how
+<!--- Thank you, Andre, for all the Wireframes!--->
 
-(WIREFRAMES GO HERE)
+## Login:
+![Login Page](./wireframes/login.png)
+
+## User Registration:
+![User Registration Page](./wireframes/register.png)
+
+## Home:
+![Home Page](./wireframes/home.png)
+
+## Fighter Selection:
+![Fighter Selection Page](./wireframes/character-selection.png)
+
+## Fighter Creation:
+![Fighter Creation Page](./wireframes/create-fighter.png)
+
+## Battle:
+![Battle Page](./wireframes/battle.png)
+
+## Battle Result:
+![Battle Result Page](./wireframes/battle-result.png)
+
+### Wireframe Botes:
+Please see [notes.md](./wireframes/notes.md) for more details.
 
 
-<!---- thank you once again Jamie for writing all this up! ----->
+<!---- Thank you once again, Jamie, for writing all this up! ----->
 
 # Risk Analysis (Extra Credit)
-See [risk_analysis.md](risk_analysis.md) for more details.
+Please see [risk_analysis.md](risk_analysis.md) for more details.
 
